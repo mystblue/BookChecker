@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xmlns="http://java.sun.com/xml/ns/javaee"
+xmlns:web="http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd"
+xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
+http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
+	<servlet>
+		<servlet-name>CloudApp2</servlet-name>
+		<servlet-class>project.blue.CloudApp2Servlet</servlet-class>
+	</servlet>
+	<servlet-mapping>
+		<servlet-name>CloudApp2</servlet-name>
+		<url-pattern>/cloudapp2</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Get</servlet-name>
+		<servlet-class>project.blue.GetDataServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Get</servlet-name>
+		<url-pattern>/get</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>View</servlet-name>
+		<servlet-class>project.blue.ViewDataServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>View</servlet-name>
+		<url-pattern>/view</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MaohGet</servlet-name>
+		<servlet-class>project.blue.GetMaohServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MaohGet</servlet-name>
+		<url-pattern>/mget</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>DawnfunGet</servlet-name>
+		<servlet-class>project.blue.GetDawnfunServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>DawnfunGet</servlet-name>
+		<url-pattern>/dget</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>MangameGet</servlet-name>
+		<servlet-class>project.blue.GetMangameServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>MangameGet</servlet-name>
+		<url-pattern>/mmget</url-pattern>
+	</servlet-mapping>
+
+	<servlet>
+		<servlet-name>Download</servlet-name>
+		<servlet-class>project.blue.DownloadServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Download</servlet-name>
+		<url-pattern>/dl</url-pattern>
+	</servlet-mapping>
+
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+	</welcome-file-list>
+</web-app>

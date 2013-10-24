@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cronentries>
+  <cron>
+    <url>/get</url>
+    <description>jpddl</description>
+    <schedule>every 3 hours synchronized</schedule>
+  </cron>
+  <cron>
+    <url>/mget</url>
+    <description>Mail out a weekly report</description>
+    <schedule>every 12 hours synchronized</schedule>
+  </cron>
+  <cron>
+    <url>/dget</url>
+    <description>dawnfun</description>
+    <schedule>every 3 hours synchronized</schedule>
+  </cron>
+  <cron>
+    <url>/mmget</url>
+    <description>mangame26</description>
+    <schedule>every 12 hours synchronized</schedule>
+  </cron>
+</cronentries>
